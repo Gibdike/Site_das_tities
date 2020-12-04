@@ -181,6 +181,25 @@ a {
         width: 90%;
         margin: 0 auto;
     }
+    header {
+        width: 92%;
+        padding: 10px 4%;
+    }
+    header input {
+        height: 0;
+        width: 0;
+        opacity: 0;
+    }
+    header ul li {
+        height: 0;
+        width: 0;
+        opacity: 0;
+    }
+    header ul li#perfil {
+        height: 40px;
+        width: 40px;
+        opacity: 100%;
+    }
     .perfil {
         padding-top: 50px;
         flex-wrap: wrap;
