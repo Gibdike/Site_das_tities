@@ -1,0 +1,205 @@
+body {
+    width: 100fr;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    font-size: 50%;
+}
+
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+
+/* Header */
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px;
+    background: #FEFFFB;
+    box-shadow: 0px 4px 4px rgba(27, 95, 16, 0.1);
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    padding: 0px 10px;
+}
+
+header ul li a {
+    padding: 0px 10px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+header ul li a img {
+    height: 20px;
+}
+
+header ul li a img:hover {
+    height: 25px;
+}
+
+header #perfil {
+    height: 40px;
+}
+
+header input {
+    height: 20px;
+    opacity: 60%;
+    border: 1px solid #d4d4d4;
+    border-radius: 5%;
+    background-color: hsl(120, 6%, 93%);
+    width: 250px;
+    font-size: 1.5rem;
+    padding: 0px 10px;
+}
+
+header a {
+    font-family: Ubuntu Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4rem;
+    line-height: 4rem;
+    color: #1B5F10;
+}
+
+main {
+    position: relative;
+    width: 100%;
+}
+
+
+/* Perfil */
+
+.perfil {
+    display: flex;
+    padding: 150px 0px;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.perfil h1 {
+    font-family: Ubuntu Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4rem;
+    line-height: 4rem;
+}
+
+.perfil h2,
+h3,
+a {
+    font-family: 'Courier Prime', monospace;
+}
+
+.perfil h2 {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    font-weight: bold;
+}
+
+.perfil h3 {
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+.perfil a {
+    font-size: 2rem;
+    line-height: 2rem;
+    color: #1B5F10;
+}
+
+.infos {
+    padding-left: 40px;
+}
+
+.infos ul li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.infos ul li a {
+    display: flex;
+}
+
+.infos ul li a h2 {
+    padding-left: 10px;
+    color: black;
+}
+
+.butt {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: start;
+    padding-top: 5px;
+    padding-left: 30px;
+}
+
+.butt a {
+    display: flex;
+    align-items: center;
+    border: 2px solid #dbf089;
+    border-radius: 5%;
+    padding: 0px 10px;
+    height: 30px;
+}
+
+.butt a:hover {
+    background-color: #dbf089;
+}
+
+.butt h3 {
+    padding: 0 20px;
+    font-weight: bold;
+}
+
+.perfil-img {
+    margin-top: 10px;
+    border: 4px solid #C0E91C;
+    border-radius: 100%;
+    padding: 8px;
+    border-radius: 100%;
+}
+
+@media (max-width:300px) {}
+
+@media (max-width:979px) {
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .perfil {
+        padding-top: 50px;
+        flex-wrap: wrap;
+    }
+    .perfil-img {
+        margin-bottom: 50px;
+    }
+    .infos {
+        max-width: 500px;
+    }
+    .infos ul li {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .butt {
+        margin-top: 30px;
+    }
+    .butt a {
+        justify-self: left;
+        margin: 0 -30px;
+    }
+}
