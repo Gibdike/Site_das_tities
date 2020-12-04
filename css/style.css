@@ -178,7 +178,7 @@ a {
 
 @media (max-width:979px) {
     .container {
-        width: 90%;
+        width: 85%;
         margin: 0 auto;
     }
     header {
@@ -208,6 +208,7 @@ a {
         margin-bottom: 50px;
     }
     .infos {
+        padding: 0;
         max-width: 500px;
     }
     .infos ul li {
